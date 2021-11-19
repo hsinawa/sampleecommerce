@@ -8,9 +8,6 @@ app.use(bodyparser.json())
 const path=require('path')
 let dbconnection = require('./auth')
 
-app.get("/" , (req,res)=>{
-    res.send("Welcome to Ecommerce by Awanish")
-} )
 
 
 
