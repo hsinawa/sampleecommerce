@@ -31,8 +31,8 @@ if(process.env.NODE_ENV==='production')
 }
 
 
-const port = process.env.PORT ||  3333 ;
+const port = process.env.PORT ||  8080 ;
 
-app.listen( port , ()=>{
+var server = app.listen( port , ()=>{
     console.log('Server started of Ecommerce')
 } )
