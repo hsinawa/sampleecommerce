@@ -1,0 +1,19 @@
+#fashionform
+{
+    width: 70%;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+#btn{
+    background-color: darkblue;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 25px;
+    color: rgb(192, 238, 238);
+    border:none;
+    
+}
